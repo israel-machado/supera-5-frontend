@@ -2,7 +2,6 @@ import React from 'react';
 import axios from 'axios';
 import Table from './components/DataTable';
 import Form from './components/Form';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -33,19 +32,13 @@ function App() {
     }));
   };
 
-  return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Extrato do Banco Supera
-          </p>
-            <div className={""}>
-              <Form onSubmit={handleSubmit} onChange={handleChange} values={formData} />
-              <Table data={tableData} />
-            </div>
-        </header>
-      </div>
-  );
+    return (
+        <div className="container">
+            <h1>Banco Supera</h1>
+            <Form onSubmit={handleSubmit} onChange={handleChange} values={formData} />
+            <Table data={tableData} />
+        </div>
+    );
 }
 
 export default App;

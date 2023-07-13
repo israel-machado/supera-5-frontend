@@ -1,1 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
 
+.table-wrapper {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.table-name {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.custom-table {
+    width: 100%;
+}
+
+.form-wrapper {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.p-col {
+    flex: 1 0 25%;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.inputtext {
+    width: 100%;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-right: 5rem;
+}

@@ -4,8 +4,8 @@ import { Button } from 'primereact/button';
 
 const Form = ({ onSubmit, onChange, values }) => {
     return (
-        <div>
-            <div className="p-grid">
+        <div className="form-wrapper">
+            <div className="p-grid form-row">
                 <div className="p-col">
                     <label>Data de Início:</label>
                     <InputText
@@ -30,7 +30,7 @@ const Form = ({ onSubmit, onChange, values }) => {
                         onChange={onChange}
                     />
                 </div>
-                <div className="p-col">
+                <div className="p-col button" style={{textAlign: 'right'}}>
                     <Button label="Pesquisar" onClick={onSubmit} />
                 </div>
             </div>
