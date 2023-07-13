@@ -13,6 +13,11 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .table-name {
@@ -30,6 +35,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 70%;
+    margin-top: 150px;
 }
 
 .form-row {
@@ -61,5 +67,10 @@ label {
 
 .button {
     margin-top: 1rem;
-    margin-right: 5rem;
+    margin-right: 2.5rem;
+}
+
+.inputtext-large {
+    width: 92%;
+    padding: 0.5rem;
 }
